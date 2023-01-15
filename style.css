@@ -64,6 +64,7 @@ nav li {
     border: none;
     align-items: center;
     margin-top: 32px;
+    color: #faf8f6;
 }
 
 /* banner img */
@@ -83,6 +84,7 @@ nav li {
     position: absolute;
     margin-top: 450px;
     display: grid;
+    left: 301px;
     grid-template-columns: repeat(2,1fr);
     gap: 15px ;
 }
@@ -90,7 +92,7 @@ nav li {
 .Features-list{
     position: absolute;   
     margin-top: 700px;
-    margin-left: 800px;
+    margin-left: 1020px;
     align-items: center;
 }
 .header-conten-titel-pra{
@@ -111,10 +113,13 @@ nav li {
    font-style: normal;
    margin-top: 32px;
    font-style: bold;
+   border: none;
+   border-radius: 8px;
 }
 
 .Features-titel{
     font-size: 45px;
+
     font-style: normal;
 }
 .Quick-list{
@@ -133,3 +138,202 @@ nav li {
     font-size: 45px;
 
 }
+
+/* Features you will love & enjoy  */
+.enjoy-container{
+    position: absolute;
+    width: 586px;
+    height: 106px;
+    left: 240px;
+    top: 2800px;
+    height: 982px;
+    background: #FFFFFF;  
+}
+
+.enjoy-img{
+    position: absolute;
+    width: 708px;
+    height: 982px;
+    left: 972px;
+    top: 2800px;
+    height: 2245px;
+
+}
+
+.Feature-title{
+    
+
+}
+.Feature-love-title{
+    font-size: 45px;
+    color: #000000;
+    font-style: normal;  
+   
+
+
+}
+.Feature-love-pra{
+    font-size: 16px;
+    font-style: normal;
+    color: #727272;
+
+}
+
+.item-container{
+    position: relative;
+    height: 171px;
+    border: #cc9191;
+    border-radius: 8px;
+    border: 1px solid #faf8f6;
+}
+
+
+.year-button{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: -95px;
+    font-style: bold;
+    border: none;
+    border-radius: 8px;
+    text-align:center;
+
+}
+
+#year-button-big{
+    font-size: 65px;
+    font-style: bold;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    background-color: #FF900E;
+}
+
+
+/* Some Facts */
+
+.Fact{
+    position: absolute;
+    width: 258px;
+    height: 53px;
+    left: 240px;
+    top: 4004px;
+    font-style: normal;
+    font-size: 45px;
+    color: #131313;
+    font-weight: 700;
+}
+
+
+.Facts-pra{
+    position: absolute; 
+    left: 240px;
+    top: 4084px;
+    font-style: normal;
+    font-size: 16px;
+    color: #727272;
+    font-weight: 700;
+}
+
+
+
+/*  Some Facts  */
+
+
+
+
+
+.some-facts-container{
+    position: absolute; 
+    display: grid;
+    margin-top: 2880px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 120px;
+    margin-left: 221px;
+    align-items: center;
+}
+.Facts{
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+    width: 241px;
+    height: 290px;
+}
+
+
+.Facts-img{
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 40%;
+    
+}
+
+.Facts-text{
+    color: #727272;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+
+.Facts-math{
+    color: #424242;
+    font-size: 45px;
+    margin-left: 60px;
+}
+.Sponspors{
+    position: absolute;
+    width: 542px;
+    height: 129px;
+    left: 689px;
+    top: 4785px;
+
+}
+.Sponspors-title{
+    width: 327px;
+    height: 53px;
+    color: #131313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.Sponspors-pra{
+    color: #727272;
+}
+
+.Sponspors-container{
+    position: relative;
+    left: 240px;
+    top: 3585px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    left: 220px;
+    margin-top: 3800px;
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+    
+    
+}
+
+.footer-text{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+
