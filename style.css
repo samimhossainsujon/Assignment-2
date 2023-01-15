@@ -1,0 +1,135 @@
+/* header and navigation style */
+header{
+    background-color: #FFEAD0;
+    margin-left: 50px;
+}
+.header_title{
+    width: 302px;
+    height: 53px;
+    top: 50px;
+    left: 228px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+   
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+  
+}
+
+/* header-conten-titel */
+.header-conten-titel{    
+    font-size: 64px;
+    margin-left: 100px;
+    top: 205px;
+    font-style: normal;
+    text-align: center;
+}
+
+.header-conten-titel-pra{
+    height: 52px;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    left: 526px;
+    top: 379px;
+    color: #727272;;
+
+}
+
+.explore-more-button{
+    position: relative;
+    width: 200px;
+    height: 84px;
+    left: 900px;
+    top: 2px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    margin-top: 32px;
+}
+
+/* banner img */
+.banner-img{
+    height: 700px;
+    width: 1440px;
+    align-items: center;
+    top: 577px;
+    background-color: #FFEAD0;
+    margin-top: 50px;
+    margin-left: 206px;
+
+}
+
+/* Quick list of Our Features  */
+.Features-container{
+    position: absolute;
+    margin-top: 450px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px ;
+}
+
+.Features-list{
+    position: absolute;   
+    margin-top: 700px;
+    margin-left: 800px;
+    align-items: center;
+}
+.header-conten-titel-pra{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 26px;
+    color: #727272;
+}
+.Features-button{
+    width: 180px;
+    height: 64px;
+    left: 1082px;
+    top: 1849px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+   font-style: normal;
+   margin-top: 32px;
+   font-style: bold;
+}
+
+.Features-titel{
+    font-size: 45px;
+    font-style: normal;
+}
+.Quick-list{
+    color: #727272;
+
+}
+
+.of-Our{
+    color: #131313;
+    font-style: bold;
+
+}
+
+.features{
+    color: #FF900E;
+    font-size: 45px;
+
+}
